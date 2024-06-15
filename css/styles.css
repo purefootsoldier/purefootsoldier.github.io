@@ -1,0 +1,285 @@
+body {
+    font-family: "Kanit";
+    margin: 0;
+}
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size:3rem;
+    color: white;
+    margin: 2rem 0;
+}
+
+nav {
+    all:unset;
+}
+.navbar {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    padding: 2rem 0s;
+}
+.order{
+    display: flex;
+    align-items: center;
+    margin: 0 10rem;
+}
+.navbar input{
+    background-color: transparent;
+    padding: .5rem;
+    border-style: solid;
+    border-color: white;
+    border-radius: 1rem;
+    margin-right: .5rem;
+    color: white;
+}
+
+.navbar p , a{
+    margin-right: .6rem;
+    text-decoration: none;
+    color: white;
+}
+.butts{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    border-color: rgb(205, 205, 0);
+    padding: .4rem 1rem;
+    color: rgb(205, 205, 0);
+    border-style: solid;
+}
+header {
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-repeat: none;
+    background-image: url("/img/3ao2ud8ancbc1.jfif");
+    background-size: cover;
+    background-color: rgb(164, 170, 177);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+
+.align-parent{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.align-text {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.align-text h1,.align-text h2,.align-text div{
+    margin:0 1rem
+}
+section {
+    height: 75vh;
+    width: auto;
+}
+.section1st {
+    background-image: url("/img/Game-Page-Featured_Library-of-Ruina-Inits.jpg");
+    background-color: rgb(157, 157, 157);
+    background-blend-mode: multiply;
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+}
+.cards {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4rem 4rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.section2nd {
+    background-image: url("/img/2098034966_preview_FFrwYcJVUAAtDIS.jpg");
+    background-color: rgb(157, 157, 157);
+    background-blend-mode: multiply;
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+.section2nd .cards {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4rem 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.section2nd .card {
+    flex: 1;
+    max-width: 25%;
+    max-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 2rem;
+}
+.card {
+    flex: 1;
+    max-width: 25%;
+    max-height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.card img{
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.section-ultima {
+    height: 220vh;
+    width: auto;
+    background-color: rgb(157, 157, 157);
+    background-blend-mode: multiply;
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url("https://images.g2a.com/newlayout/880x450/1x1x0/d6a634cc049c/5eccda2e46177c22213c0722");
+}
+
+.ultima-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ultima-card {
+    flex: 1;
+    height: 15rem;
+    width: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 100%;
+    color: white;
+    margin: 8rem 2rem;
+}
+.ultima-card p {
+    all: unset;
+    color: black;
+    background-color: white;
+    border-radius: 0 0 30px 30px;
+    height: auto;
+    padding: 2rem 2rem;
+}
+
+.background {
+    border-radius: 30px 30px 0 0;
+    display: flex;
+    width: 100%;            
+    min-height: 15rem;
+    justify-content: center;
+    align-items: center;      
+    background-size: cover; 
+    background-position: bottom; 
+    background-repeat: no-repeat;
+    
+}
+.malkuth {
+    background: rgb(252,232,69);
+    background: linear-gradient(90deg, rgba(129,110,50,1) 0%, rgba(252,232,69,1) 50%, rgba(129,110,50,1) 100%);
+}
+.yesod {
+    background: rgb(29,22,54);
+background: linear-gradient(90deg, rgba(29,22,54,1) 0%, rgba(70,49,145,1) 74%, rgba(201,33,255,1) 100%);
+}
+.hod {
+    background: rgb(184,113,45);
+background: linear-gradient(90deg, rgba(184,113,45,1) 0%, rgba(255,99,0,1) 50%, rgba(184,113,45,1) 100%);
+}
+.netzatch {
+    background: rgb(53,95,76);
+background: linear-gradient(315deg, rgba(53,95,76,1) 0%, rgba(59,100,81,1) 76%, rgba(0,255,138,1) 100%);
+}
+.tipheret {background: rgb(160,187,100);
+    background: radial-gradient(circle, rgba(160,187,100,1) 50%, rgba(111,217,30,1) 97%, rgba(188,219,25,1) 100%);
+}
+.geburah {
+    background: rgb(159,34,34);
+    background: radial-gradient(circle, rgba(159,34,34,1) 0%, rgba(190,30,30,1) 50%, rgba(151,35,35,1) 100%);
+}
+.chesed {
+    background: rgb(25,27,72);
+background: linear-gradient(90deg, rgba(25,27,72,1) 0%, rgba(49,79,145,1) 70%, rgba(43,48,192,1) 100%);
+}
+.binah {
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 77%, rgba(255,249,0,1) 100%);
+}
+.hokma {
+    background: rgb(213,217,212);
+background: linear-gradient(90deg, rgba(213,217,212,1) 0%, rgba(164,190,160,1) 48%, rgba(213,217,212,1) 77%, rgba(213,217,212,1) 100%);
+}
+.ultima-card img {
+    width: 50%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.ultima-card button {
+    margin-top: 2rem;
+}
+.ultima-card button:hover {
+    border-color: white;
+    color: white;
+    background-color: #fff200; /* Color de fondo dorado más claro al hacer hover */
+    box-shadow: 0 0 20px rgb(251, 255, 7); /* Sombra dorada */
+}
+
+.ultima-card .img-top{
+    display: none;
+}
+.ultima-card:hover .img-top{
+    display: flex;
+}
+.ultima-card .img-bottom{
+    display: inline;
+}
+.ultima-card:hover .img-bottom{
+    display: none;
+}
+footer {
+    background-image: url("/img/0_tNho5hXD_jEPpDcF.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: grey;
+    background-blend-mode: multiply;
+    width: auto;
+    padding: 5rem ;
+    color: white;
+}
+
+footer nav {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+footer main , div {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: white;
+}
+
+
